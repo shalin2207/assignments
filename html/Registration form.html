@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style>div
+{  background: linear-gradient(lightblue,blue);
+font-size: 30px;
+margin-bottom: 10px;
+}
+table
+{
+background: lightblue;
+}
+input[type=submit]
+{
+	background: royalblue;
+	color: white;
+ }
+ input[type=reset]
+ {
+ 	background:royalblue;
+ 	color: white;
+ }
+</style>
+</head>
+<body>
+
+ <div style="text-align: center; color: red;">Individual Registration</div>
+<form><table  cellspacing="5px"  >
+
+<tr><td style="color: red; font-size: 20px;">User Particulars</td></tr>
+<tr><td colspan="2"  style="text-align: right;">*Login ID</td><td><input type="text"required></td></tr>
+<tr><td colspan="2"  style="text-align: right;">*Password</td><td><input type="Password"pattern="[0-4]{4}" title="enter 4 digit only" required></td></tr>
+<tr><td colspan="2" style="text-align: right;">*Confirm Password</td><td><input type="Password"pattern="[0-4]{4}" title="enter 4 digit only"required></td></tr>
+
+<tr><td style="color: red; font-size: 20px;">Personal Particulars</td></tr>
+<tr><td style="text-align: right;">*Salutation</td><td><select><option hidden>select</option><option>Mr.</option><option>Ms.</option><option>Mrs.</option></select></td>
+<td style="text-align: right;">*First Name</td><td><input type="text"required></td></tr>
+<tr><td style="text-align: right;">*MIddle Name</td><td><input type="text"required></td><td style="text-align: right;" >*Last Name</td><td><input type="text"required></td></tr>
+<tr><td style="text-align: right;">*Resident Status</td><td><select><option hidden>select</option><option>Ahemedabad</option><option>Gandhinager</option><option>Baroda</option></select>
+</td>
+<td style="text-align: right;">*Country</td><td><select><option hidden>select</option><option>India</option><option>Canada</option><option>America</option></select></td>
+<tr><td style="text-align: right;">*Email-ID</td><td><input type="Email"required></td><td style="text-align: right;">Mobile Number</td><td><input type="text"pattern="[0-9]{10}" title="enter 10 digit only"required></td>
+</tr>
+
+<tr><td style="color: red; font-size:20px">Account Particulars</td></tr>
+<tr><td style="text-align: right;">*15 Digit Account No</td><td><input type="text"pattern="[0-9]{15}" title="enter 15 digit only"required></td><td style="text-align: right;">*Nick Name</td><td><input type="text"required></td></tr>
+<tr><td style="text-align: right;">*Fund Transfer</td><td><select><option hidden>select</option><option>Googlepay</option><option>Phonepe</option><option>Paytem</option></select></td>
+
+<tr><td style="color: red;">DECLARATION</td></tr>
+<tr> <td colspan="4">I have read,under stood and hereby agree to the terms and conditions in respect of all products and channels.</td></tr>
+<tr><td colspan="4">I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches. I confim that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/ anyone or survivor(s) under his/her joint name respectively. I do hereby declare that information furnished in this form is true to the best os my knowledge and belief.</td></tr>
+<tr><td colspan="4"style="text-align: center;"><input type="Submit" name=""><input type="Reset" name=""></td></tr>
+</table></form>
+</body>
+</html>
+
